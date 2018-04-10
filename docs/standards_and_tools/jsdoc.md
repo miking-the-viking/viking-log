@@ -1,0 +1,4 @@
+- [JSDoc3](https://github.com/jsdoc3/jsdoc)
+    - [JSDoc Cheatsheet 1](https://devhints.io/jsdoc)
+    - [JSDoc Cheatsheet 2](https://www.cheatography.com/killermonkeys/cheat-sheets/closure-jsdoc/)
+    - [JSDoc Reference](http://usejsdoc.org/index.html)

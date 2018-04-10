@@ -1,10 +1,14 @@
 # VikingLog
 
-## A Log of Learning: Topics & Projects - MikingTheViking
+## A Log of Learning: Topics & Projects
+
+The [VikingLog](docs/devlog/index.md)
 
 ### General Topics
 
 Topics that could generally use a review
+
+- [Computer Science Topics](docs/academics/computer_science.md)
 
 ### Frameworks
 
@@ -12,73 +16,77 @@ Frameworks of interest divided by backend/frontend.
 
 #### Backend
 
- - [Laravel](https://laravel.com/)
-    - [Composer](https://getcomposer.org/)
- - [npm]()
- - [PM2]()
-
+- [Laravel](docs/frameworks/backend/laravel/laravel.md)
+- [AMQP](docs/frameworks/backend/amqp/amqp.md)
+  - [RabbitMQ](docs/frameworks/backend/amqp/rabbitmq.md)
 
 #### Frontend
 
- - [React](https://reactjs.org/)
-    - [Flux](https://facebook.github.io/flux/)
-    - [Enzyme](https://github.com/airbnb/enzyme)
-    - [Jest](https://facebook.github.io/jest/)
- - [Redux](https://redux.js.org/)
- - [AngularJS](https://angularjs.org/)
- - [Bootstrap4]()
- - [Bulma]()
+- [React](docs/frameworks/frontend/react/react.md)
+    - [Flux](docs/frameworks/frontend/react/flux.md)
+    - [Enzyme](docs/frameworks/frontend/react/enzyme.md)
+    - [Jest](docs/frameworks/frontend/react/jest.md)
+    - [React Native](docs/frameworks/frontend/react/reactnative.md)
+- [VueJS](docs/frameworks/frontend/vuejs/vuejs.md)
+    - [Vuex](docs/frameworks/frontend/vuejs/vuex.md)
+    - [Vue Router](docs/frameworks/frontend/vuejs/vue-router.md)
+- [Redux](docs/frameworks/frontend/redux.md)
+- [AngularJS](docs/frameworks/frontend/angularjs.md)
+- [Bootstrap4](docs/frameworks/frontend/bootstrap4.md)
+- [Bulma](docs/frameworks/frontend/bulma.md)
 
 
 ### Standards & Enforcement Tools
 
 Some coding standards and enforcement tools to simplify the process.
 
- - [PSR-2](https://www.php-fig.org/psr/psr-2/)
- - [JSDoc3](https://github.com/jsdoc3/jsdoc)
-    - [JSDoc Cheatsheet 1](https://devhints.io/jsdoc)
-    - [JSDoc Cheatsheet 2](https://www.cheatography.com/killermonkeys/cheat-sheets/closure-jsdoc/)
-    - [JSDoc Reference](http://usejsdoc.org/index.html)
- - [ESLint](https://eslint.org/)
-    - [Tutorial](https://eslint.org/docs/user-guide/getting-started)
+- [PSR-2](docs/standards_and_tools/psr2.md)
+- [JSDoc3](docs/standard_and_tools/jsdoc.md)
+- [ESLint](docs/standards_and_tools/eslint.md)
 
 
 ### Languages
 
 Languages that are known, or should be brushed up on.
 
-#### Other
+- C#
+- C++
+- Java
+- Android
+- [ECMAScript](docs/languages/ecmascript.md)
 
- - C#
- - C++
- - Java
- - Android
+### Server
 
-#### JavaScript/TypeScript
-
- - [EMCAScript](http://www.ecma-international.org/ecma-262/6.0/index.html)
-    - [Learning ES6](http://www.benmvp.com/learning-es6/)
-    - [ES6 Features](https://github.com/lukehoban/es6features)
- - NodeJS
+- NodeJS
+- PHP
 
 ### Databases
 
- - NoSQL
-    - [MongoDB Tutorial](https://www.tutorialspoint.com/mongodb/index.htm)
- - SQL
-    - [MySQL]()
-    - [Postgres]()
+#### NoSQL
 
-### Tools
+- [MongoDB](docs/databases/mongodb.md)
 
-Tools of interest.
+#### SQL
 
- - AWS
-    - [Elstic Beanstalk](https://docs.aws.amazon.com/gettingstarted/latest/deploy/overview.html?icmpid=docs_homepage_gscarousel)
+- [MySQL](docs/databases/mysql.md)
+- [Postgres](docs/databases/postgres.md)
+
+### Tools/Methodologies of Interest
+
+#### AWS
+
+- [Elastic Beanstalk](docs/tools/elasticbranstalk.md)
+
+#### Version Control
+
+- [git](docs/devops/development/git.md)
 
 #### Frontend
 
- -[D3.js](https://d3js.org/)
+
+##### Visualizations
+
+- [D3.js](docs/tools/frontend/d3.md)
 
 #### Backend
 
@@ -90,25 +98,30 @@ Different aspects of DevOps of interest.
 
 Development tools of interest.
 
- - [Yeoman](https://github.com/yeoman/yo)
- - [GitFlow]()
- - [Webpack]()
- - [Gulp]()
- - [Grunt]()
- - [Vagrant]()
- - [Docker]()
+- [Yeoman](docs/devops/development/yeoman.md)
+- [Composer](docs/devops/development/composer.md)
+- [npm](docs/devops/development/npm.md)
+- [GitFlow](docs/devops/development/gitflow.md)
+- [Webpack](docs/devops/development/webpack.md)
+- [Gulp](docs/devops/development/gulp.md)
+- [Grunt](docs/devops/development/grunt.md)
+- [Vagrant](docs/devops/development/vagrant.md)
+- [Docker](docs/devops/development/docker.md)
+- [Makefile](docs/devops/development/makefile.md)
 
 
 #### Testing
 
 Testing tools of interest.
 
- - [Mockery]()
- - [Mocha]()
- - [PHPUnit]()
+- [Mockery](docs/devops/testing/mockery.md)
+- [Mocha](docs/devops/testing/mocha.md)
+- [PHPUnit](docs/devops/testing/phpunit.md)
 
 #### Deployment
 
 Deployment tools/topics of interest.
 
-- [Continuous Integration](https://hackernoon.com/continuous-integration-circleci-vs-travis-ci-vs-jenkins-41a1c2bd95f5?gi=5c65d2b83bf8)
+- [Continuous Integration](docs/deployment/continuous_integration.md)
+- [Kubernetes] (docs/deployment/kubernetes.md)
+- [PM2](docs/devops/deployment/pm2.md)
