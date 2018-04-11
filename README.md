@@ -124,5 +124,5 @@ Testing tools of interest.
 Deployment tools/topics of interest.
 
 - [Continuous Integration](docs/deployment/continuous_integration.md)
-- [Kubernetes] (docs/deployment/kubernetes.md)
+- [Kubernetes](docs/deployment/kubernetes.md)
 - [PM2](docs/devops/deployment/pm2.md)
