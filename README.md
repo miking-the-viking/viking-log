@@ -54,6 +54,7 @@ Languages that are known, or should be brushed up on.
 - Java
 - Android
 - [ECMAScript](docs/languages/ecmascript.md)
+- [TypeScript](docs/languages/typescript.md)
 
 ### Server
 
