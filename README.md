@@ -59,6 +59,7 @@ Languages that are known, or should be brushed up on.
 ### Server
 
 - NodeJS
+  - [NestJS](docs/frameworks/backend/node/nest.md)
 - PHP
 
 ### Databases

@@ -1,12 +1,15 @@
 # [Apache Cassandra](http://cassandra.apache.org/doc/latest/)
 
+
+
 ## Links
 
 - [Cassandra Docker Image](https://hub.docker.com/_/cassandra/)
 - [Referenced API](https://www.tutorialspoint.com/cassandra/cassandra_referenced_api.htm)
 - [Cqlsh](https://www.tutorialspoint.com/cassandra/cassandra_cqlsh.htm)
 - [Shell Commands](https://www.tutorialspoint.com/cassandra/cassandra_shell_commands.htm)
-- []()
+- [DataStax](https://docs.datastax.com/en/cassandra/3.0/cassandra/architecture/archIntro.html)
+- [Cassandra Architecture Setup Tutorial](https://www.ibm.com/developerworks/library/ba-set-up-apache-cassandra-architecture/index.html)
 
 ## Intro
 
