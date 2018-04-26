@@ -295,3 +295,10 @@ Decorators are evaluated first to last (top to bottom), but the results are retu
 
 #### Class Decorators
 
+Class decorators are used just before a class declaration. It gets applied to the constructor of the class and can then be used to observe, modify, or replace a class definition.
+
+**Note:** Class decorators cannot be used in a delcaration file, or in any other ambient context (Such s on a `declare` class).
+
+The expression of the class decorator will be called as a functino at runtime, with the contsructor of the decorated class as its only argument.
+
+If the class decorator returns a value, it will replace the class declaration with the provided constructor function.
