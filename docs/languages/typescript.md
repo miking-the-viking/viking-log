@@ -1,6 +1,7 @@
 # [TypeScript](https://www.typescriptlang.org/docs/home.html)
 
 - [Good Book](https://basarat.gitbooks.io/typescript/)
+- [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) - repository of TypeScript definitions
 
 ## What it is?
 TypeScript is JavaScript with types allowing for static type checking, easier refactoring, etc. It uses the `.ts` extension.
@@ -8,6 +9,10 @@ TypeScript is JavaScript with types allowing for static type checking, easier re
 ## Compiling TS
 
 Run `tsc [filename].ts` to compile `[filename].js`.
+
+For a webpack build, install libraries `typescript awesome-typescript-loader source-map-loader`. These will allow TypeScript and webpack to work together. `awesome-typescript-loader` lets Webpack compile TypeScript code using `.tsconfig`. `source-map-loader` uses any sourcemap outputs from TypeScript to inform webpack when generating _its own_ sourcmaps.
+
+There is also `ts-loader`, ultimately `awesome-typescript-loader` accelerates development by having a faster compile time, especially if used with babel (`useBabel`) and cachined (`useCache`. TypeScript's emit will be transpiled with Babel and cached.)
 
 ## Benefits
 
