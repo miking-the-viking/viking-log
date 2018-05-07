@@ -2,7 +2,7 @@
 
 ## A Log of Learning: Topics & Projects
 
-The [VikingLog](docs/devlog/index.md)
+<!-- The [VikingLog](docs/devlog/index.md) -->
 
 ### General Topics
 
